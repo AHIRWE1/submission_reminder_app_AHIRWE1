@@ -5,7 +5,7 @@ echo "Enter your name here:"
 read user_name
 
 # Define the application directory
-app_dir="submission_reminder_Gabriella_Ahirwe"
+app_dir="submission_reminder_${user_name}"
 
 # Creating the parent directory
 mkdir -p "$app_dir"
